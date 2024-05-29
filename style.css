@@ -1,0 +1,45 @@
+.navbar {
+    background-color: black;
+}
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home {
+    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(./assets/images/header-background.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    flex-direction: column;
+}
+#home h1 {
+    font-size: 100px;
+    color: #ffff;
+    letter-spacing: 3px;
+}
+#home p {
+    color: #ffff;
+    font-size: 18px;
+}
+#home .input-group {
+    width: 40%;
+    height: 40px;
+}
+.getstart {
+    background-color:black;
+}
+#section-division {
+    height: 80vh;
+    background-color: rgb(215, 213, 213);
+}
+#selector {
+    height: 350px;
+    width: 500px;
+}
+#content  h1{
+    margin: 30px;   
+    text-align: center;
+}
